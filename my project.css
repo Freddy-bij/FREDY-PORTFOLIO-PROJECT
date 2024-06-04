@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://images.pexels.com/photos/23322370/pexels-photo-23322370/free-photo-of-the-turquoise-waters-of-the-pamukkale-thermal-springs.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+    object-fit: cover;
+    gap: 10px;
+    display: flex;
+    height:200vh;
+    gap: 20px;
+    padding: 45px 32px;
+    color: rgb(219, 180, 7);
+    font-size: 25px;
+ 
+}
+ div{
+    padding: 45px 32px;
+    width: 200px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    color: blueviolet;
+}
+p{
+    color: rgb(234, 7, 241);
+}
+ @media ( max-width: 640px){
+    body{
+      flex-wrap: wrap;
+      gap: 2px;
+    }
+ }
